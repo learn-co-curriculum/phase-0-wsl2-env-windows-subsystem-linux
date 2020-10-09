@@ -101,4 +101,4 @@ requested version" message in the "Command Prompt" application, close the
 ### Check Your Work
 
 If the "Visual Studio Code" application opens when you type `code` in the
-"Ubuntu" application, continue to the next lesson.
+"Ubuntu" application, continue to the next lesson - **Installing Ruby**.
