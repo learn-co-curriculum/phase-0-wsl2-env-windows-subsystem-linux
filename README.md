@@ -77,6 +77,13 @@ If you saw the "Conversion complete" or "This distribution is already the
 requested version" message in the "Command Prompt" application, close the
 "Command Prompt" application and continue below.
 
+> **Note:** If you encounter an error message that you need to enable the
+> Virtual Machine Platform, but you've already enabled it, you may not be able
+> to use WSL2. However, you may still be able to use WSL1. Run 
+> `wsl --set-default-version 1`, then run `wsl --set-version Ubuntu 1`. Wait for 
+> the "Conversion complete" or "This distribution is already the requested 
+> version" message in the terminal, then continue on with these instructions.
+
 ## Configure VS Code to Work with WSL
 
 ### Action Item
