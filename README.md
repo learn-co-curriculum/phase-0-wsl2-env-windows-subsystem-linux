@@ -1,4 +1,4 @@
-# Setting Up WSL 2
+# Setting Up WSL2
 
 Windows Subsystem Linux (WSL) is **not** automatically enabled on windows. So,
 to start, we need to enable it!
@@ -101,4 +101,4 @@ requested version" message in the "Command Prompt" application, close the
 ### Check Your Work
 
 If the "Visual Studio Code" application opens when you type `code` in the
-"Ubuntu" application, continue to the next lesson, **Installing Ruby**.
+"Ubuntu" application, continue to the next lesson, **Installing Ruby on WSL2**.
