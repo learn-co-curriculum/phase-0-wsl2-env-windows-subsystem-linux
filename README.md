@@ -1,14 +1,14 @@
 # Setting Up WSL 2
 
 Windows Subsystem Linux (WSL) is **not** automatically enabled on windows. So,
-to start off, we need to enable it!
+to start, we need to enable it!
 
 ## Enable the Windows Subsystem for Linux (WSL) and Virtual Machine Platform
 
 Now that we know your computer is ready for the rest of the environment setup,
 we need to enable two more settings before moving on. We’ll be using the Windows
-Subsystem for Linux (WSL) and the Virtual Machine Platform in order to create a
-space on our computer for our Ubuntu operating system.
+Subsystem for Linux (WSL) and the Virtual Machine Platform to create a space on
+our computer for our Ubuntu operating system.
 
 ### Action Item: Enable Windows Subsystem for Linux (WSL) and Virtual Machine Platform Settings
 
@@ -20,8 +20,8 @@ space on our computer for our Ubuntu operating system.
 
 ### Check Your Work
 
-If you are able to check both of those checkboxes and your computer restarts,
-continue below. Otherwise, reach out to your teaching team for next steps.
+If you can check both of those checkboxes and your computer restarts, continue
+below. Otherwise, reach out to your teaching team for next steps.
 
 ## Set up the "Ubuntu" Application
 
@@ -101,4 +101,4 @@ requested version" message in the "Command Prompt" application, close the
 ### Check Your Work
 
 If the "Visual Studio Code" application opens when you type `code` in the
-"Ubuntu" application, continue below.
+"Ubuntu" application, continue to the next lesson.
