@@ -20,6 +20,8 @@ our computer for our Ubuntu operating system.
 
 ### Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FNW1CktP_m8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If you can check both of those checkboxes and your computer restarts, continue
 below. Otherwise, reach out to your teaching team for next steps.
 
@@ -43,6 +45,8 @@ have to set up the Ubuntu operating system.
    lines that you can ignore
 
 ### Check Your Work
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZFXI7vGFdng" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now, the last line in your "Ubuntu" application should say your username +
 "@DESKTOP" + some random numbers and letters. If you see that, continue below.
@@ -72,6 +76,10 @@ Now that we have the Windows Subsystem for Linux (WSL) enabled and we have the
    requested version" message in the terminal
 
 ### Check Your Work
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7IxV_ARTAoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dvqSkrK-q6g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you saw the "Conversion complete" or "This distribution is already the
 requested version" message in the "Command Prompt" application, close the
@@ -106,6 +114,10 @@ requested version" message in the "Command Prompt" application, close the
 11. Type `code` and press `<Enter>`
 
 ### Check Your Work
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wUmNR1ip7ck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/giY_9z096vo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If the "Visual Studio Code" application opens when you type `code` in the
 "Ubuntu" application, continue to the next lesson, **Installing Ruby on WSL2**.
