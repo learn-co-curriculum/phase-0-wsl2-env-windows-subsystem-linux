@@ -120,4 +120,4 @@ requested version" message in the "Command Prompt" application, close the
 <iframe width="560" height="315" src="https://www.youtube.com/embed/giY_9z096vo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If the "Visual Studio Code" application opens when you type `code` in the
-"Ubuntu" application, continue to the next lesson, **Installing Ruby on WSL2**.
+"Ubuntu" application, continue to the next lesson, **Installing Node on WSL2**.
