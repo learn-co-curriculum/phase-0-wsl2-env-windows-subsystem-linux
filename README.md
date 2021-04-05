@@ -102,13 +102,13 @@ requested version" message in the "Command Prompt" application, close the
 3. Search for "Remote - WSL" and click on the item in the list with the same
    name (Note: the description should start with "Open any folder in the Windows
    Subsystem for Linux (WSL) …")
-4. Click the green "Install" button
+4. Click the "Install" button near the top of the page
 5. Click "Terminal" in the toolbar, then click "New Terminal" (Note: a new
    terminal should appear at the bottom of your VS Code window)
 6. Click on the dropdown in the terminal that says "1: powershell" and choose
-   "Select Default Shell"
+   "Select Default Profile"
 7. A dropdown should appear at the top of your VS Code window
-8. Click on "WSL Bash" to enable VS Code to display your Ubuntu terminal
+8. Click on "Ubuntu (WSL)" to enable VS Code to display your Ubuntu terminal
 9. Close the "Visual Studio Code" application
 10. Open the "Ubuntu" application using the "Start" menu
 11. Type `code` and press `<Enter>`
