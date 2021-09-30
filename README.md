@@ -40,7 +40,7 @@ have to set up the Ubuntu operating system.
 3. Where it says "New password:" add a simple password and press `<Enter>`
    _(Note: you will not see any text when you are typing your password.)_
 4. Where it says "Retype new password:" retype the same password from before and
-   press `<Enter>`
+   press `<Enter>` _(Note: store this password somewhere safe. You will need it to be able to run commands in the future)_
 5. The terminal should output "Installation successful!" and then print about 50
    lines that you can ignore
 
