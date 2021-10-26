@@ -1,7 +1,7 @@
 # Setting Up WSL2
 
-Windows Subsystem Linux (WSL) is **not** automatically enabled on windows. So,
-to start, we need to enable it!
+Windows Subsystem for Linux (WSL) is **not** automatically enabled on Windows.
+So, to start, we need to enable it!
 
 ## Install Windows Subsystem for Linux (WSL) and Ubuntu
 
@@ -18,8 +18,8 @@ Ubuntu, so this step is critical to complete before moving ahead.
    window
 4. In the "Ubuntu" application, when it says "Enter new UNIX username:" add a
    simple username and press `<Enter>` _(Note: usernames may not start with a
-   number, usernames may not include capital letters. It does not need to be the
-   same as your Windows username.)_
+   number and may not include capital letters. It does not need to be the same
+   as your Windows username.)_
 5. Where it says "New password:" add a simple password and press `<Enter>`
    _(Note: you will not see any text when you are typing your password.)_
 6. Where it says "Retype new password:" retype the same password from before and
