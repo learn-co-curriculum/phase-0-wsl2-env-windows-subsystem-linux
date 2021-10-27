@@ -71,9 +71,15 @@ Now that we have the Windows Subsystem for Linux (WSL) enabled and we have the
 5. Type `wsl --set-default-version 2` into the terminal and press `<Enter>`
    _(Note: you should see a message starting with "For information on key
    differences…")_
-6. Type `wsl --set-version Ubuntu 2` into the terminal and press `<Enter>`
-7. Wait for the "Conversion complete" or "This distribution is already the
+6. Type `wsl --status` into the terminal and press `<Enter>`. You should see a
+   message including "Default Version 2", which verifies that the default
+   version has been set correctly.
+7. Type `wsl --set-version Ubuntu 2` into the terminal and press `<Enter>`
+8. Wait for the "Conversion complete" or "This distribution is already the
    requested version" message in the terminal
+9. Type `wsl --list --verbose` into the terminal and press `<Enter>`. You should
+   see a message including "NAME Ubuntu VERSION 2", which verifies that the
+   default version has been set correctly.
 
 ### Check Your Work
 
