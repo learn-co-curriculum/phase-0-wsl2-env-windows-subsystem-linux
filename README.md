@@ -12,14 +12,13 @@ Ubuntu, so this step is critical to complete before moving ahead.
 
 ### Action Item: Install WSL Features
 
-1. Open the "Command Prompt" application using the "Start" menu
-2. Search for the "Command Prompt" application using the "Start" menu
-3. Select "Run as administrator" from the right side of the search window
-4. Allow the program to make changes to your device and wait for the "Command
+1. Search for the "Command Prompt" application using the "Start" menu
+2. Select "Run as administrator" from the right side of the search window
+3. Allow the program to make changes to your device and wait for the "Command
    Prompt" application to open
-5. Type `wsl --install -d Ubuntu` and press `<Enter>`
-6. The terminal should output "The requested operation is successful."
-7. Restart your computer to complete the installation.
+4. Type `wsl --install -d Ubuntu` and press `<Enter>`
+5. The terminal should output "The requested operation is successful."
+6. Restart your computer to complete the installation.
 
 ### Check Your Work
 
@@ -38,8 +37,8 @@ remainder of the environment setup.
 3. Click "Get" and "Install" and wait for the application installation to complete
 4. Open the "Ubuntu" application
 5. When it says "Enter new UNIX username:" add a simple username and press
-   `<Enter>` (Note: usernames may not start with a number, usernames may not
-   include capital letters)
+   `<Enter>` (Note: usernames may not start with a number, and may not include
+   capital letters)
 6. Where it says "New password:" add a simple password and press `<Enter>` _(Note:
    you will not see any text when you are typing your password.)_
 7. Where it says "Retype new password:" retype the same password from before and
@@ -63,21 +62,20 @@ Now that we have the Windows Subsystem for Linux (WSL) enabled and we have the
 
 ### Action Item
 
-1. Open the "Command Prompt" application using the "Start" menu
-2. Search for the "Command Prompt" application using the "Start" menu
-3. Select "Run as administrator" from the right side of the search window
-4. Allow the program to make changes to your device and wait for the "Command
+1. Search for the "Command Prompt" application using the "Start" menu
+2. Select "Run as administrator" from the right side of the search window
+3. Allow the program to make changes to your device and wait for the "Command
    Prompt" application to open
-5. Type `wsl --set-default-version 2` into the terminal and press `<Enter>`
+4. Type `wsl --set-default-version 2` into the terminal and press `<Enter>`
    _(Note: you should see a message starting with "For information on key
    differences…")_
-6. Type `wsl --status` into the terminal and press `<Enter>`. You should see a
+5. Type `wsl --status` into the terminal and press `<Enter>`. You should see a
    message including "Default Version 2", which verifies that the default
    version has been set correctly.
-7. Type `wsl --set-version Ubuntu 2` into the terminal and press `<Enter>`
-8. Wait for the "Conversion complete" or "This distribution is already the
+6. Type `wsl --set-version Ubuntu 2` into the terminal and press `<Enter>`
+7. Wait for the "Conversion complete" or "This distribution is already the
    requested version" message in the terminal
-9. Type `wsl --list --verbose` into the terminal and press `<Enter>`. You should
+8. Type `wsl --list --verbose` into the terminal and press `<Enter>`. You should
    see a message including "NAME Ubuntu VERSION 2", which verifies that the
    default version has been set correctly.
 
