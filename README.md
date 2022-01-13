@@ -20,6 +20,13 @@ Ubuntu, so this step is critical to complete before moving ahead.
 5. The terminal should output "The requested operation is successful."
 6. Restart your computer to complete the installation.
 
+> **Note:** If you encounter an error message that says "Ubuntu required feature
+> not installed" then try enabling VSM in your BIOS. Follow
+> [this guide](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html) 
+> to access your BIOS and get to the virtualization settings. Enable VSM and
+> virtualization options from there. Check out
+> [this issue](https://github.com/microsoft/>WSL/issues/5689) for reference.
+
 ### Check Your Work
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w01AU7pl24w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
