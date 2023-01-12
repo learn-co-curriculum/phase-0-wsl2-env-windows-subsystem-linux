@@ -22,7 +22,7 @@ Ubuntu, so this step is critical to complete before moving ahead.
 
 > **Note:** If you encounter an error message that says "Ubuntu required feature
 > not installed" then try enabling VSM in your BIOS. Follow
-> [this guide](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html) 
+> [this guide](https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html)
 > to access your BIOS and get to the virtualization settings. Enable VSM and
 > virtualization options from there. Check out
 > [this issue](https://github.com/microsoft/>WSL/issues/5689) for reference.
@@ -41,16 +41,17 @@ remainder of the environment setup.
 2. Search for "Ubuntu" _(Note: do not choose "Ubuntu 16.04 LTS", "Ubuntu 18.04
    LTS", or "Ubuntu 20.04LTS". Instead, choose the option that has no number
    next to it.)_
-3. Click "Get" and "Install" and wait for the application installation to complete
+3. Click "Get" and "Install" and wait for the application installation to
+   complete
 4. Open the "Ubuntu" application
 5. When it says "Enter new UNIX username:" add a simple username and press
    `<Enter>` (Note: usernames may not start with a number, and may not include
    capital letters)
-6. Where it says "New password:" add a simple password and press `<Enter>` _(Note:
-   you will not see any text when you are typing your password.)_
+6. Where it says "New password:" add a simple password and press `<Enter>`
+   _(Note: you will not see any text when you are typing your password.)_
 7. Where it says "Retype new password:" retype the same password from before and
-   press `<Enter>` _(Note: store this password somewhere safe. You will need it to
-   be able to run commands in the future)_
+   press `<Enter>` _(Note: store this password somewhere safe. You will need it
+   to be able to run commands in the future)_
 8. The terminal should output "Installation successful!" and then print about 50
    lines that you can ignore
 
@@ -108,9 +109,10 @@ requested version" message in the "Command Prompt" application, close the
 1. Open the "Visual Studio Code" application using the "Start" menu
 2. Click "View" in the toolbar, then click "Extensions" in the dropdown menu, or
    use the shortcut `<Control>` + `<Shift>` + `X`
-3. Search for "Remote - WSL" and click on the item in the list with the same
-   name (Note: the description should start with "Open any folder in the Windows
-   Subsystem for Linux (WSL) …")
+3. Search for "WSL" and click on the item in the list with a description that
+   starts with "Open any folder in the Windows Subsystem for Linux (WSL) …".
+   (Note that the name of the extension has been changed from "Remote - WSL" to
+   just "WSL" since the video below was recorded.)
 4. Click the "Install" button near the top of the page
 5. Click "Terminal" in the toolbar, then click "New Terminal" (Note: a new
    terminal should appear at the bottom of your VS Code window)
